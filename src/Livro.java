@@ -1,12 +1,14 @@
+import br.com.etechoracio.playlivros.enums.VersaoEnum;
+
 import java.time.LocalTime;
 
 public class Livro {
-    String titulo;
-    String autor;
-    LocalTime duracao;
-    String resumo;
-     double preco;
-     String editora;
-    String narrador;
-    String versao;
+    public String titulo;
+    public String autor;
+    public LocalTime duracao;
+    public String resumo;
+    public double preco;
+    public String editora;
+    public String narrador;
+    public VersaoEnum versao;
 }
