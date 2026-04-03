@@ -3,7 +3,7 @@ import br.com.etechoracio.playlivros.Livro;
 import br.com.etechoracio.playlivros.enums.VersaoEnum;
 import java.time.LocalTime;
 
-public class CarrinhoCompras
+public class    CarrinhoCompras
 {
     static void main(String [] args) {
         Livro primeiroLivro = new Livro();
