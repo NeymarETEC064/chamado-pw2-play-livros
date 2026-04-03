@@ -1,3 +1,5 @@
+package br.com.etechoracio.playlivros;
+
 import br.com.etechoracio.playlivros.enums.VersaoEnum;
 
 import java.time.LocalTime;

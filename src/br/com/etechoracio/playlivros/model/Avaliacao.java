@@ -8,6 +8,6 @@ public class Avaliacao
     public String comentario;
     LocalTime data;
     public Usuario usuario;
-    boolean aprovacao:
+    boolean aprovacao;
 
 }
