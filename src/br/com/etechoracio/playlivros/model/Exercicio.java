@@ -1,3 +1,5 @@
+package br.com.etechoracio.playlivros.model;
+
 import br.com.etechoracio.playlivros.enums.DificuldadeEnum;
 
 public class Exercicio {

@@ -1,5 +1,4 @@
-import br.com.etechoracio.playlivros.model.Avaliacao;
-import br.com.etechoracio.playlivros.model.Usuario;
+package br.com.etechoracio.playlivros.model;
 
 import java.time.LocalTime;
 
