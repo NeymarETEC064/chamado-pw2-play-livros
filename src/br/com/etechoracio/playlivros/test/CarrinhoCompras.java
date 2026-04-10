@@ -1,5 +1,5 @@
 package br.com.etechoracio.playlivros.test;
-import br.com.etechoracio.playlivros.Livro;
+import br.com.etechoracio.playlivros.model.Livro;
 import br.com.etechoracio.playlivros.enums.VersaoEnum;
 import java.time.LocalTime;
 
