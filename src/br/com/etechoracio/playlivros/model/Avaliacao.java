@@ -9,5 +9,4 @@ public class Avaliacao
     LocalTime data;
     public Usuario usuario;
     boolean aprovacao;
-
 }

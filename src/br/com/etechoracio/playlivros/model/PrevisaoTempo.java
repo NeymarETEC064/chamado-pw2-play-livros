@@ -1,7 +1,7 @@
 package br.com.etechoracio.playlivros.model;
 
-import br.com.etechoracio.playlivros.enums.CondicaoTempoEnum;
-import br.com.etechoracio.playlivros.enums.FaseLuaEnum;
+import br.com.etechoracio.playlivros.Enums.CondicaoTempoEnum;
+import br.com.etechoracio.playlivros.Enums.FaseLuaEnum;
 
 import java.time.LocalDateTime;
 

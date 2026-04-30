@@ -1,6 +1,6 @@
 package br.com.etechoracio.playlivros.model;
 
-import br.com.etechoracio.playlivros.enums.DificuldadeEnum;
+import br.com.etechoracio.playlivros.Enums.DificuldadeEnum;
 
 public class Exercicio {
     public String nome;
