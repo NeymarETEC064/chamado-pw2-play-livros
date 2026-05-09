@@ -2,6 +2,8 @@ package br.com.etechoracio.playlivros.test;
 
 import br.com.etechoracio.playlivros.model.Livro;
 import br.com.etechoracio.playlivros.Enums.VersaoEnum;
+
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class TestaLivros {
@@ -18,4 +20,5 @@ public class TestaLivros {
         primeiroLivro.resumo = "Explora como os hábitos funcionam e como podem ser transformados.";
         primeiroLivro.exibir();
     }
+
 }

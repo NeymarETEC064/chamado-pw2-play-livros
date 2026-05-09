@@ -3,6 +3,7 @@ package br.com.etechoracio.playlivros.model;
 import br.com.etechoracio.playlivros.Enums.VersaoEnum;
 import org.w3c.dom.ls.LSOutput;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Livro {
@@ -14,6 +15,7 @@ public class Livro {
     public String editora;
     public String narrador;
     public VersaoEnum versao;
+    public LocalDate dataLancamento;
 
     public void exibir() {
         System.out.println("--------------------");
@@ -21,5 +23,18 @@ public class Livro {
         System.out.println("Autor: " + autor);
         System.out.println("Narrador: " + narrador);
         System.out.println("Editora: " + editora);
+        System.out.println("Disponibilidade: " + obterDisponibilidade());
+    }
+
+    public String obterDisponibilidade(){
+        if (dataLancamento.isAfter(LocalDate.now())){
+            return "Em pré-venda";
+        }
+        else{
+            return "Disponivel";
+        }
     }
 }
+
+
+
