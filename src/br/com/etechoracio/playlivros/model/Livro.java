@@ -1,5 +1,6 @@
 package br.com.etechoracio.playlivros.model;
 
+import br.com.etechoracio.playlivros.Enums.DisponibilidadeEnum;
 import br.com.etechoracio.playlivros.Enums.VersaoEnum;
 import org.w3c.dom.ls.LSOutput;
 
@@ -26,12 +27,12 @@ public class Livro {
         System.out.println("Disponibilidade: " + obterDisponibilidade());
     }
 
-    public String obterDisponibilidade(){
+    public DisponibilidadeEnum obterDisponibilidade(){
         if (dataLancamento.isAfter(LocalDate.now())){
-            return "Em pré-venda";
+            return DisponibilidadeEnum.EM_PRE_VENDA;
         }
         else{
-            return "Disponivel";
+            return DisponibilidadeEnum.DISPONIVEL;
         }
     }
 }
