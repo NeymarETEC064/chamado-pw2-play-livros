@@ -9,7 +9,6 @@ import java.time.LocalTime;
 public class TestaLivros {
     public static void main(String[] args) {
         Livro primeiroLivro = new Livro();
-
         primeiroLivro.titulo = "O Poder do Hábito";
         primeiroLivro.autor = "Charles Duhigg";
         primeiroLivro.narrador = "Carlos Seidl";

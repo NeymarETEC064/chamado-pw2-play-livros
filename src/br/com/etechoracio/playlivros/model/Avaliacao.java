@@ -11,13 +11,20 @@ public class Avaliacao
     public Usuario usuario;
     boolean aprovacao;
     public String titulo;
+    private boolean aprovado;
+
+    public void aprovar(){
+        this.aprovado = true;
+    }
 
     public void exibir() {
-        System.out.println("  ");
-        System.out.println(usuario.nome);
-        System.out.println(estrelas + " estrelas " + titulo);
-        System.out.println("Avaliado em " + obterDataPorExtenso());
-        System.out.println(comentario);
+        if(aprovado = true){
+            System.out.println("  ");
+            System.out.println(usuario.nome);
+            System.out.println(estrelas + " estrelas " + titulo);
+            System.out.println("Avaliado em " + obterDataPorExtenso());
+            System.out.println(comentario);
+        }
     }
 
     public String obterDataPorExtenso(){
