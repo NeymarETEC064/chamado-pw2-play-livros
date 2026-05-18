@@ -20,7 +20,7 @@ public class Avaliacao
     public void exibir() {
         if(aprovado = true){
             System.out.println("  ");
-            System.out.println(usuario.nome);
+            System.out.println(usuario.getNome());
             System.out.println(estrelas + " estrelas " + titulo);
             System.out.println("Avaliado em " + obterDataPorExtenso());
             System.out.println(comentario);
